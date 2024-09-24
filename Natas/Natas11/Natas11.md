@@ -111,8 +111,7 @@ print "\n";
 を実行する。
 
 すると、`eDWoeDWoeDWoeDWoeS]>kJjaHTlxOwdW93+:J`という出力結果が得られる。  
-<!-- ここにeDWoとわかる理由を入れる -->
-`eDWo`が出力結果だとわかるので。
+eDWoが繰り返されているので、`eDWo`がkeyだとわかる。
 
 key`eDWo`を使ってcookieをデコードする。
 ```
