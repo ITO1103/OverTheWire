@@ -3,7 +3,7 @@
     // ~morla
     class Executor{
         private $filename="test.php"; 
-        private $signature='true';
+        private $signature=True;
         private $init=False;
     }
     // create new Phar
@@ -12,7 +12,6 @@
     $phar->addFromString('natas.txt', 'text');
     $phar->setStub('<?php __HALT_COMPILER(); ? >');
     // add object of any class as meta data
-    class AnyClass {}
     $object = new Executor();
     $object->data = 'rips';
     $phar->setMetadata($object);
