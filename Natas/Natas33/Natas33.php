@@ -3,7 +3,7 @@
     // ~morla
     class Executor{
         private $filename="test.php"; 
-        private $signature='adeafbadbabec0dedabada55ba55d00d';
+        private $signature='true';
         private $init=False;
     }
     // create new Phar
